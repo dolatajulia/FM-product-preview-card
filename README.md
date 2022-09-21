@@ -4,8 +4,8 @@ This project is a solution to the [Product preview card component challenge on F
 
 ## GitHub Pages link
 
-https://dolatajulia.github.io/product-preview-card/
+https://dolatajulia.github.io/FM-product-preview-card/
 
 ## Project screenshot
 
-![image](https://github.com/dolatajulia/product-preview-card/blob/master/resources/project-screenshot.jpg)
+![image](resources/project-screenshot.jpg)
