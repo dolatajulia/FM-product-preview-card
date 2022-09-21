@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+html {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    color: hsl(212, 21%, 14%);
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+s {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin-left: 1.5rem;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+
+.card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.desktop-image {
+    width: 50%;
+}
+
+.card-text-column {
+    margin: auto 5%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.price h1 {
+    color:hsl(158, 36%, 37%);
+}
+
+.button {
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button img {
+    height: 1.2rem;
+    width: auto;
+    margin: 0.5rem;
+}
+
+.button:hover {
+    background-color: hsl(158, 36%, 20%);
+    cursor: pointer;
+}
+
+.mobile-image {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+
+    .desktop-image {
+        display: none;
+    }
+
+    .mobile-image {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .card {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card-text-column {
+        margin: auto 7%;
+    }
+
+    .button {
+        margin-bottom: 1.5rem;
+    }
+
+  }
